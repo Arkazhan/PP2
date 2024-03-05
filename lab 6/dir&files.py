@@ -4,7 +4,7 @@ import string
 
 #ex1
 def inf_about_path():
-    path = r"C:\Users\Jahs\work\pp2\repository\pp2"
+    path = r"C:\Users\Arka\work\pp2\repository\pp2"
     print("Directories:")
     print(
         [name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))]
@@ -23,7 +23,7 @@ def inf_about_path():
 
 #ex2
 def check_for_access():
-    path = r"C:\Users\Jahs\work\pp2\repository\pp2"
+    path = r"C:\Users\Arka\work\pp2\repository\pp2"
     print("Exist:", os.access(path, os.F_OK))
     print("Readable:", os.access(path, os.R_OK))
     print("Writable:", os.access(path, os.W_OK))
